@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
+
+
+
 <body>
     
     <h1>What are we going to eat</h1>
@@ -16,16 +19,12 @@
 
    
 
-    <form action="https://formsubmit.co/7879092148@tmomail.net" method="POST">
+    <form id="my-form" action="" method="POST">
 
             <fieldset>
-                <legend>Your contact information</legend>
-                <label for="name">Enter your name <input type="text" required value="Juan"></label>
-
-                <label for="last-name">Enter your last name <input type="text" id="last-name" required value="Alvarado Caraballo"></label>
-    
-                <label for="email">Enter your email address <input type="email" id="email" required  value="noname@email.com"></label>
-
+                <legend>Send to</legend>
+                <label for="person"><input name="person" type="radio" value="https://formsubmit.co/7879092148@tmomail.net">Juan Alvarado Caraballo</label>
+                <label for="person"><input name="person" type="radio" value="https://formsubmit.co/7874777433@tmomail.net">Alexandra Agosto Rivera</label>
             </fieldset>
            
 
@@ -40,16 +39,48 @@
             <fieldset>
                 <legend>Place</legend>
                 <label for="food-place">Fast Food
-                <select name="food-place" id="food-place">
+                    <select name="food-place" id="food-place">
+
                     <option selected>Select one...</option>
-            <option value="Burger King">Burger King</option>
-            <option value="Mac Donald">Mac Donald</option>
-            <option value="Taco Bell">Taco Bell</option>
-            <option value="Domino's">Domino's</option>
-           
+                    <option value="Burger King">Burger King</option>
+                    <option value="Mac Donald">Mac Donald</option>
+                    <option value="Taco Bell">Taco Bell</option>
+                    <option value="Domino's">Domino's</option>
+                    <option value="Culver's">Culver's</option>
+                    <option value="Sonic">Sonic</option>
+                    <option value="Jack in the Box">Jack in the Box</option>
+                    <option value="Arby's">Arby's</option>
+                    <option value="Carl's Jr">Carl's Jr</option>
+                    <option value="Jersey Mike's Subs">Jersey Mike's Subs</option>
+                    <option value="Wendy's">Wendy's</option>
+                    <option value="Schlotzsky's">Schlotzsky's</option>
+                    <option value="Chipotle Mexican Grill">Chipotle Mexican Grill</option>
+                    <option value="Panda Express">Panda Express</option>
+                    <option value="Subway">Subway</option>
+                    <option value="Jimmy John's">Jimmy John's</option>
+                    <option value="Dickey's Barbecue Pit">Dickey's Barbecue Pit</option>
+                    <option value="KFC">KFC</option>
+                    <option value="Filiberto">Filiberto</option>
+                    <option value="Pizza Hut">Pizza Hut</option>
+                    <option value="MOD Pizza">MOD Pizza</option>
+                    <option value="Little Ceasar">Little Ceasar</option>
+                    <option value="Papa John's">Papa John's</option>
+                    <option value="Rodolfo's Taco Shop">Rodolfo's Taco Shop</option>
+                    <option value="Guadalajara stree tacos & hotdogs">Guadalajara stree tacos & hotdogs</option>
+                
         </label>
 
                 </select>
+
+                <label for="food-place">Restaurant
+                    <select name="food-place" id="food-place">
+
+
+
+
+
+
+
             </fieldset>
 
             <fieldset>
@@ -95,7 +126,7 @@
             <br>
         </form>
   
-      
+        <script src="script.js"></script>
     
 </body>
 </html>
